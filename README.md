@@ -44,12 +44,11 @@ res://
 ├── Main.tscn
 ├── Main.gd
 ├── DialogueSystem/
-│   ├── DialogueManager.gd
-│   └── dialogue_data.json
-├── Assets/
-│   ├── Characters/
-│   ├── Backgrounds/
-│   └── Audio/
+│   └── dialogues.json
+├── sounds
+│   ├── Theme.mp3
+│   ├── Theme.wap
+│   ├──TypeSound.wap
 └── UI/
     └── NextButton.tscn
 ```
