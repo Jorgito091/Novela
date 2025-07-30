@@ -1,0 +1,73 @@
+[gd_scene load_steps=6 format=3 uid="uid://b05ysvkcuplcl"]
+
+[ext_resource type="Script" uid="uid://p3kc5qfhbocj" path="res://Main.gd" id="1_ig7tw"]
+[ext_resource type="AudioStream" uid="uid://c7wofv1xljbe4" path="res://sounds/TypeSound.wav" id="2_0xm2m"]
+
+[sub_resource type="FontFile" id="FontFile_0xm2m"]
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_h2yge"]
+font = SubResource("FontFile_0xm2m")
+font_size = 24
+font_color = Color(0.0313726, 1, 1, 1)
+outline_size = 3
+
+[sub_resource type="LabelSettings" id="LabelSettings_1bvp3"]
+line_spacing = 1.0
+font_size = 20
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="DialogueBox" type="Panel" parent="."]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="CharacterName" type="Label" parent="DialogueBox"]
+layout_mode = 0
+offset_right = 90.0
+offset_bottom = 49.0
+label_settings = SubResource("LabelSettings_h2yge")
+horizontal_alignment = 1
+
+[node name="DialogueText" type="Label" parent="DialogueBox"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 55.0
+offset_right = 785.0
+offset_bottom = 125.0
+label_settings = SubResource("LabelSettings_1bvp3")
+autowrap_mode = 3
+
+[node name="NextButton" type="Button" parent="DialogueBox"]
+layout_mode = 0
+offset_left = 998.0
+offset_top = 49.0
+offset_right = 1101.0
+offset_bottom = 110.0
+text = "Continuar"
+
+[node name="TalkSound" type="AudioStreamPlayer2D" parent="DialogueBox"]
+position = Vector2(0, -498)
+stream = ExtResource("2_0xm2m")
