@@ -56,19 +56,10 @@ res://
 
 ---
 
-## 🖋️ Historia
-
-> Eliot despierta un día sintiéndose... fuera de lugar.  
-> Él es un zorro más, en un mundo que no parece hecho para él.  
-> Las palabras no bastan, y las respuestas no llegan solas.  
-> Esta es la historia de buscarse a uno mismo, cuando todo lo demás parece ruido.
-
----
 
 ## ⚠️ Aviso
 
 Este proyecto está en desarrollo activo y muchas mecánicas pueden cambiar.  
-Reporta bugs o ideas en la pestaña de Issues si estás viendo esto en GitHub.
 
 ---
 
