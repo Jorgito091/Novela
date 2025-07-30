@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=3 uid="uid://chxio25rm2qja"]
+
+[ext_resource type="Script" uid="uid://bsv1k7hlr888j" path="res://start_screen.gd" id="1_afy8x"]
+[ext_resource type="AudioStream" uid="uid://brdsy50efdfwo" path="res://sounds/Theme.mp3" id="2_pevhg"]
+
+[sub_resource type="GDScript" id="GDScript_ncxyx"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ncxyx"]
+
+[sub_resource type="GDScript" id="GDScript_pevhg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ncxyx"]
+font_size = 28
+font_color = Color(1, 1, 0.352941, 0.337255)
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 8.0
+offset_right = -199.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_afy8x")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 366.0
+offset_top = -20.0
+offset_right = 744.0
+offset_bottom = 608.0
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "INICIO"
+script = SubResource("GDScript_ncxyx")
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "SALIR"
+icon = SubResource("CanvasTexture_ncxyx")
+script = SubResource("GDScript_pevhg")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 501.0
+offset_top = 23.0
+offset_right = 846.0
+offset_bottom = 230.0
+text = "Titulo"
+label_settings = SubResource("LabelSettings_ncxyx")
+
+[node name="MenuMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_pevhg")
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
