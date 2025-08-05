@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://chxio25rm2qja"]
 
 [ext_resource type="Script" uid="uid://bsv1k7hlr888j" path="res://start_screen.gd" id="1_afy8x"]
-[ext_resource type="AudioStream" uid="uid://brdsy50efdfwo" path="res://sounds/Theme.mp3" id="2_pevhg"]
+[ext_resource type="AudioStream" uid="uid://bcq1jtbogbhld" path="res://sounds/menu_theme.mp3" id="2_pevhg"]
 
 [sub_resource type="GDScript" id="GDScript_ncxyx"]
 

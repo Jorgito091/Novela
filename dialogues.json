@@ -1,58 +1,150 @@
 [
   {
-	"speaker": "Eliot",
-	"text": "Siempre me han dicho que no sirvo para nada..."
+	"speaker": "Narrador",
+	"text": "El amanecer no rompía el silencio, lo acariciaba. La niebla reposaba sobre la tierra como un sudario pálido, suspendido entre el mundo de los vivos y algo más... indefinido."
   },
   {
-	"speaker": "Eliot",
-	"text": "A veces me pregunto si tienen razón. ¿Y si nací para fracasar?"
+	"speaker": "Narrador",
+	"text": "En medio de ese velo blanco, un zorro anciano caminaba. Su pelaje, antes rojo y orgulloso, estaba apagado, manchado por la lluvia y los años. Cada paso era una confesión, cada huella, una pregunta sin respuesta."
   },
   {
-	"speaker": "Cuervo",
-	"text": "¿Y tú qué crees, pequeño zorro? ¿Has intentado escucharte alguna vez?"
+	"speaker": "Narrador",
+	"text": "No huía de la muerte. No la buscaba tampoco. Solo avanzaba. Quizá intentando recordar por qué empezó a caminar en primer lugar."
   },
   {
-	"speaker": "Eliot",
-	"text": "No lo sé... Siempre he vivido tratando de encajar. Cambiando mi forma de ser para gustarles."
+	"speaker": "Narrador",
+	"text": "Sobre la rama de un árbol seco, tan retorcido como los pensamientos del caminante, un cuervo lo observaba. Su plumaje era oscuro como la palabra no dicha. Sus ojos, dos puntos fijos en la memoria del tiempo."
   },
   {
-	"speaker": "Eliot",
-	"text": "Y aún así... sigo sintiéndome solo."
-  },
-  {
-	"speaker": "Cuervo",
-	"text": "Entonces no estabas encajando. Solo te estabas perdiendo."
-  },
-  {
-	"speaker": "Eliot",
-	"text": "Perdiéndome..."
-  },
-  {
-	"speaker": "Eliot",
-	"text": "Sí. Ya no sé quién soy realmente. Solo sé lo que los demás quieren que sea."
+	"speaker": "Zorro",
+	"text": "No esperaba compañía en este tramo del viaje..."
   },
   {
 	"speaker": "Cuervo",
-	"text": "Descubrir quién eres no es sencillo. Requiere silencio, coraje y tiempo. Pero aún estás a tiempo, Eliot."
+	"text": "Ni toda soledad es vacía, ni toda compañía acompaña."
   },
   {
-	"speaker": "Eliot",
-	"text": "¿Y si no me gusta lo que descubra?"
+	"speaker": "Narrador",
+	"text": "El zorro no respondió de inmediato. Sus ojos buscaron entre los árboles alguna señal, algún recuerdo que pudiera explicarle el presente. No la encontró."
   },
   {
-	"speaker": "Cuervo",
-	"text": "Entonces podrás decidir cambiar. No por ellos... sino por ti."
-  },
-  {
-	"speaker": "Eliot",
-	"text": "Tal vez... tal vez aún puedo averiguarlo."
+	"speaker": "Zorro",
+	"text": "¿Me hablas a mí o al eco de mis pasos?"
   },
   {
 	"speaker": "Cuervo",
-	"text": "Entonces comencemos, pequeño zorro. La oscuridad puede guiarte, si sabes observar."
+	"text": "¿Y si fueran lo mismo?"
   },
   {
-	"speaker": "Eliot",
-	"text": "Gracias... por no irte cuando más perdido estaba."
+	"speaker": "Narrador",
+	"text": "Un viento ligero movió las hojas secas, pero no logró llevarse el peso de la pregunta."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "Llevo días caminando. O semanas. No lo sé. Todo es igual desde que partí."
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "No es el tiempo lo que avanza. Es la memoria quien lo arrastra."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El zorro se detuvo. Miró sus patas manchadas de barro. En ellas no veía caminos, solo cicatrices."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "¿Tú has seguido a muchos como yo?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "He estado donde terminan los senderos. Y también donde comienzan, aunque pocos lo notan."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El silencio volvió, pero no trajo paz. El cuervo no se movía, ni un pestañeo. Solo estaba ahí. Un testigo. O algo más antiguo."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "Si sabes a dónde voy, ¿por qué no me detienes?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Porque detener no es mi oficio. Yo observo. Eso basta."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El zorro suspiró, como si con el aire saliera parte de su historia. El cuervo ladeó la cabeza, como si escuchara sin oír."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "Hay noches en que aún sueño con el hogar... pero no sé si alguna vez existió fuera de mi imaginación."
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Los sueños no mienten. Solo olvidan decir que mienten."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "Una hoja cayó. Nadie la vio. Nadie la esperó. Como tantas cosas."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "¿Qué buscas en mí, ave oscura?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Nada. A veces, lo que parece un seguimiento es solo coincidencia persistente."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El zorro se sentó al pie de un roble seco. El crujido de sus huesos fue casi un lamento. En su mirada no había rabia, solo preguntas antiguas, demasiado cansadas para insistir."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "¿Y si no quiero llegar?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Entonces quédate. Pero recuerda: el lugar se transforma si lo habitas por miedo."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El cielo comenzó a cambiar. No más azul, pero tampoco tormenta. Una hora suspendida, como si el mundo contuviera el aliento."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "¿Alguna vez sentiste pesar?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "El pesar es cosa de quienes viven muchas veces. Yo apenas existo para los que están por partir."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "Una rama se quebró a lo lejos. Nada salió corriendo. Nada llegó."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "Creí que entendería más antes del final..."
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Tal vez el entendimiento no cabe en un cuerpo. Por eso algunos lo buscan justo cuando lo están dejando."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "El zorro cerró los ojos por un instante. No para dormir. Sino para imaginar que nunca los abrió."
+  },
+  {
+	"speaker": "Zorro",
+	"text": "¿Te quedarás?"
+  },
+  {
+	"speaker": "Cuervo",
+	"text": "Estoy. Eso basta."
+  },
+  {
+	"speaker": "Narrador",
+	"text": "Y así cayó la noche. No como una amenaza, sino como un manto. El zorro no se movió. El cuervo tampoco. Dos figuras detenidas entre el pasado y lo que sea que venga después."
   }
 ]
